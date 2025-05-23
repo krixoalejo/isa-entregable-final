@@ -4,11 +4,11 @@
 #include <LiquidCrystal_I2C.h>
 
 // Configuración WiFi
-const char *ssid = "kxal";
-const char *password = "acm1ptsabe";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 // URL del servidor (ajustar IP)
-const char *serverUrl = "http://192.168.81.90:5000/api/infrared";
+const char *serverUrl = "http://PYTHON_SERVER_IP:5000/api/infrared";
 
 // Configuración LCD
 LiquidCrystal_I2C lcd(0x27, 16, 2);  // Dirección I2C común

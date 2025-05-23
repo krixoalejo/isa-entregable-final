@@ -4,11 +4,11 @@
 #include <LiquidCrystal_I2C.h>
 
 // Credenciales WiFi
-const char *ssid = "kxal";
-const char *password = "acm1ptsabe";
+const char* ssid = "SSID";
+const char* password = "PASSWORD";
 
 // URL del servidor Python
-const char *serverUrl = "http://192.168.81.90:5000/api/endpoint";
+const char *serverUrl = "http://PYTHON_SERVER_IP:5000/api/endpoint";
 
 // LCD: dirección I2C y tamaño (16 columnas x 2 filas)
 LiquidCrystal_I2C lcd(0x27, 16, 2);
